@@ -2,8 +2,8 @@
   <div class="container">
     <introduction-component/>
     <about-me-in-code-component/>
-    <skills-component/>
     <projects-component/>
+    <skills-component/>
     <contact-component/>
   </div>
 </template>
