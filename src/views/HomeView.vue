@@ -1,9 +1,11 @@
 <template>
-  <introduction-component/>
-  <about-me-in-code-component/>
-  <skills-component/>
-  <projects-component/>
-  <contact-component/>
+  <div class="container">
+    <introduction-component/>
+    <about-me-in-code-component/>
+    <skills-component/>
+    <projects-component/>
+    <contact-component/>
+  </div>
 </template>
 
 <script lang="ts">
@@ -21,3 +23,9 @@ export default defineComponent({
 })
 </script>
 
+<style scoped>
+.container {
+  margin: auto;
+  width: 60%;
+}
+</style>
