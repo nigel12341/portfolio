@@ -161,6 +161,9 @@ export default defineComponent({
   animation: blink 1.1s steps(1, end) infinite;
   translate: 0 4px;
 }
+.container {
+  margin-bottom: 5rem;
+}
 
 @keyframes blink {
   0% {

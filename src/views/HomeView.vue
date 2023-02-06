@@ -2,9 +2,12 @@
   <div class="mainView">
     <introduction-component/>
     <about-me-in-code-component/>
+    <hr>
     <projects-component/>
     <skills-component/>
+    <hr>
     <contact-component/>
+    <p>Copyright (c) Nigel Christiaans 2023</p>
   </div>
 </template>
 
@@ -34,5 +37,14 @@ export default defineComponent({
 }
 template {
   background-color: var(--background-color);
+}
+p{
+  margin-top: 10rem;
+}
+hr{
+  width: 70%;
+  border: 2px solid var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 </style>
