@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="mainView">
     <introduction-component/>
     <about-me-in-code-component/>
-    <skills-component/>
     <projects-component/>
+    <skills-component/>
     <contact-component/>
   </div>
 </template>
@@ -24,8 +24,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.container {
-  margin: auto;
-  width: 70%;
+.mainView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+}
+template {
+  background-color: var(--background-color);
 }
 </style>

@@ -4,6 +4,7 @@
 
 <style>
 @import '@/assets/styles/variables.css';
+@import'~bootstrap/dist/css/bootstrap.css';
 nav {
   padding: 30px;
 }
