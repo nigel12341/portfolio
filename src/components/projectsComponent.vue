@@ -128,4 +128,13 @@ export default {
   text-align: center;
   margin-bottom: 30px;
 }
+h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-family: Monaco,Consolas,Lucida Console,monospace;
+  color: var(--main-color);
+  width: 100%;
+}
 </style>
