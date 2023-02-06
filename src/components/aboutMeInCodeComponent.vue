@@ -1,26 +1,31 @@
 <template>
-  <div class="dots red"> </div>
-  <div class="dots yellow"> </div>
-  <div class="dots green"> </div>
-<div class="container">
-  <p class="command" id="overrideStyle">> Nigel.skills</p>
-  <p class="output"> ["Java", "Vue", "Javascript", "HTML", "CSS", "Typescript", "MySQL", "NoSQL", "Cypress"]</p>
-  <p class="command">> Nigel.resume</p>
-  <p class="output" ><a :href="linkToResume" target="_blank" >"Resume.pdf"</a></p>
-  <p class="command">> Nigel.interests</p>
-  <p class="output">["Airsoft", "Motorcycle riding", "Gaming", "Chilling"]</p>
-  <p class="command">> Nigel.education</p>
-  <p class="output">"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied Sciences."</p>
-  <p class="command">> Nigel.contactInfo</p>
-  <p class="output">[<a href="mailto:nigel@nigelchristiaans.nl">"nigel@nigelchristiaans.nl"</a>, <a href="https://www.linkedin.com/in/n-christiaans/">"LinkedIn"</a>, <a href="https://github.com/nigel12341">"Github"</a>]</p>
-  <p class="command" id="typingAnimation">
-    >
-      <span class="npm">npm</span>
-      hire
-      <span class="packageName">@Nigel/resume</span>
-    <span class="blink"> </span>
-  </p>
-</div>
+  <div class="container">
+    <div class="dots red"></div>
+    <div class="dots yellow"></div>
+    <div class="dots green"></div>
+    <div class="terminal">
+      <p class="command" id="overrideStyle">> Nigel.skills</p>
+      <p class="output"> ["Java", "Vue", "Javascript", "HTML", "CSS", "Typescript", "MySQL", "NoSQL", "Cypress"]</p>
+      <p class="command">> Nigel.resume</p>
+      <p class="output"><a :href="linkToResume" target="_blank">"Resume.pdf"</a></p>
+      <p class="command">> Nigel.interests</p>
+      <p class="output">["Airsoft", "Motorcycle riding", "Gaming", "Chilling"]</p>
+      <p class="command">> Nigel.education</p>
+      <p class="output">"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied
+        Sciences."</p>
+      <p class="command">> Nigel.contactInfo</p>
+      <p class="output">[<a href="mailto:nigel@nigelchristiaans.nl">"nigel@nigelchristiaans.nl"</a>, <a
+          href="https://www.linkedin.com/in/n-christiaans/">"LinkedIn"</a>, <a href="https://github.com/nigel12341">"Github"</a>]
+      </p>
+      <p class="command" id="typingAnimation">
+        >
+        <span class="npm">npm</span>
+        hire
+        <span class="packageName">@Nigel/resume</span>
+        <span class="blink"> </span>
+      </p>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -37,9 +42,9 @@ const firebaseConfig = {
   appId: "1:732238214166:web:606c6978ff67fdee55f137",
   measurementId: "G-HE3STT9C9K"
 };
-export default defineComponent ({
+export default defineComponent({
   name: "aboutMeInCodeComponent",
-  mounted (){
+  mounted() {
     // this.typingAnimation();
     initializeApp(firebaseConfig);
     this.getLinkToResume();
@@ -52,9 +57,9 @@ export default defineComponent ({
     },
     typingAnimation() {
       const name = document.getElementById("typingAnimation");
-      if(name === null) return;
+      if (name === null) return;
       const nameText = name.textContent;
-      if(nameText === null) return;
+      if (nameText === null) return;
       name.textContent = "";
       let i = 0;
       const typingName = () => {
@@ -77,67 +82,77 @@ export default defineComponent ({
 </script>
 
 <style scoped>
-.container {
-  margin: 0;
+.terminal {
   padding: 10px;
-  text-align: left;
   border-top: 30px solid var(--main-color);
   background-color: var(--background-color);
   border-radius: 10px 10px 5px 5px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
 }
+
 .dots {
+  float: left;
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  display: inline-block;
-  translate: 1px 26px;
+  translate: 2px 7px;
   margin-left: 5px;
 }
-#overrideStyle{
+
+#overrideStyle {
   padding-top: 0;
 }
+
 .red {
   background-color: #FF0000;
 }
+
 .yellow {
   background-color: #FFD700;
 }
+
 .green {
   background-color: #00FF00;
 }
-.command{
+
+.command {
   font-size: 1.2em;
   font-weight: 300;
   margin: 0;
-  font-family: Monaco,Consolas,Lucida Console,monospace;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
   color: black;
   padding-top: 1.8rem;
   padding-left: 15px;
 }
-.output{
+
+.output {
   font-size: 1.2em;
   font-weight: 300;
   margin: 0;
-  font-family: Monaco,Consolas,Lucida Console,monospace;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
   color: var(--secondary-color);
   padding-left: 15px;
   padding-right: 30px;
 }
+
 .output > a {
   text-decoration: none;
   color: deepskyblue;
   cursor: pointer;
 }
+
 .output > a:hover {
   text-decoration: underline;
 }
-.npm{
+
+.npm {
   color: darkgoldenrod;
 }
-.packageName{
+
+.packageName {
   color: yellowgreen;
 }
+
 .blink {
   display: inline-block;
   width: 11px;
@@ -146,6 +161,7 @@ export default defineComponent ({
   animation: blink 1.1s steps(1, end) infinite;
   translate: 0 4px;
 }
+
 @keyframes blink {
   0% {
     opacity: 1;

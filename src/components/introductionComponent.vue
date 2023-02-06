@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="introContainer">
     <div class="nameContainer">
       > Nigel Christiaans
       <span class="blink"> </span>
@@ -19,12 +19,12 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.introContainer {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  text-align: left;
+  text-align: center;
   color : var(--secondary-color);
 }
 .blink {
@@ -35,7 +35,7 @@ export default {
   height: 45px;
   background-color: var(--secondary-color);
   animation: blink 1.1s steps(1, end) infinite;
-  translate: 0 8px;
+  translate: 0 15px;
 }
 .nameContainer{
   font-size: 3em;
