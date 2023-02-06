@@ -34,6 +34,7 @@ export default defineComponent({
   justify-content: center;
   width: 80%;
   height: 100%;
+  margin-top: 50px;
 }
 template {
   background-color: var(--background-color);
