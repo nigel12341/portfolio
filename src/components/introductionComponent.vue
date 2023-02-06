@@ -1,9 +1,12 @@
 <template>
   <div class="container">
-    <h1 id="name">> Nigel Christiaans<span class="blink"> </span></h1>
-    <p id="shortIntro"> I am a second year Software Engineering student at the Amsterdam University of Applied Sciences. My passion is to create software that is easy to use and that solves real world problems.
+    <div class="nameContainer">
+      > Nigel Christiaans
+      <span class="blink"> </span>
+    </div>
+    <p class="shortIntro"> I am a second year Software Engineering student at the Amsterdam University of Applied Sciences.
     </p>
-    <p>Check out my projects to see what I have been working on.</p>
+    <p class="shortIntro">Check out my projects to see what I have been working on.</p>
   </div>
 </template>
 
@@ -16,33 +19,32 @@ export default {
 </script>
 
 <style scoped>
-#name {
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  color : var(--secondary-color);
+}
+.blink {
+  display:inline;
+  position: absolute;
+  float: right;
+  width: 30px;
+  height: 45px;
+  background-color: var(--secondary-color);
+  animation: blink 1.1s steps(1, end) infinite;
+  translate: 0 8px;
+}
+.nameContainer{
   font-size: 3em;
   font-weight: 300;
   margin: 0;
   padding: 0;
   font-family: Monaco,Consolas,Lucida Console,monospace;
   color: var(--main-color);
-}
-.container {
-  margin: 0;
-  padding: 0;
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  text-align: left;
-  align-items: flex-start;
-  color : var(--secondary-color);
-}
-.blink {
-  display: inline-block;
-  width: 30px;
-  height: 45px;
-  background-color: var(--secondary-color);
-  animation: blink 1.1s steps(1, end) infinite;
-  translate: 0 8px;
 }
 @keyframes blink {
   0% {
@@ -57,6 +59,35 @@ export default {
 }
 span{
   margin-left: 5px;
+}
+.shortIntro {
+font-size: 1.2em;
 
+  margin: 0;
+  font-family: Monaco,Consolas,Lucida Console,monospace;
+  color: var(--secondary-color);
+  padding-top: 1.8rem;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 1040px) {
+  .nameContainer{
+    font-size: 2em;
+  }
+  .blink {
+    width: 20px;
+    height: 35px;
+    translate: 0 2px;
+  }
+}
+@media only screen and (max-width: 699px) {
+  .nameContainer{
+    font-size: 1.5em;
+  }
+  .blink {
+    width: 15px;
+    height: 25px;
+    translate: 0 3px;
+  }
 }
 </style>

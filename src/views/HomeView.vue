@@ -26,6 +26,6 @@ export default defineComponent({
 <style scoped>
 .container {
   margin: auto;
-  width: 60%;
+  width: 70%;
 }
 </style>

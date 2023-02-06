@@ -5,15 +5,21 @@
 <div class="container">
   <p class="command" id="overrideStyle">> Nigel.skills</p>
   <p class="output"> ["Java", "Vue", "Javascript", "HTML", "CSS", "Typescript", "MySQL", "NoSQL", "Cypress"]</p>
+  <p class="command">> Nigel.resume</p>
+  <p class="output" ><a :href="linkToResume" target="_blank" >"Resume.pdf"</a></p>
   <p class="command">> Nigel.interests</p>
   <p class="output">["Airsoft", "Motorcycle riding", "Gaming", "Chilling"]</p>
   <p class="command">> Nigel.education</p>
   <p class="output">"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied Sciences."</p>
-  <p class="command">> Nigel.resume</p>
-  <a class="output" :href="linkToResume" target="_blank" >Resume.pdf</a>
   <p class="command">> Nigel.contactInfo</p>
   <p class="output">[<a href="mailto:nigel@nigelchristiaans.nl">"nigel@nigelchristiaans.nl"</a>, <a href="https://www.linkedin.com/in/n-christiaans/">"LinkedIn"</a>, <a href="https://github.com/nigel12341">"Github"</a>]</p>
-  <p class="command">> <span class="blink"> </span></p>
+  <p class="command" id="typingAnimation">
+    >
+      <span class="npm">npm</span>
+      hire
+      <span class="packageName">@Nigel/resume</span>
+    <span class="blink"> </span>
+  </p>
 </div>
 </template>
 
@@ -33,7 +39,8 @@ const firebaseConfig = {
 };
 export default defineComponent ({
   name: "aboutMeInCodeComponent",
-  created() {
+  mounted (){
+    // this.typingAnimation();
     initializeApp(firebaseConfig);
     this.getLinkToResume();
   },
@@ -43,6 +50,22 @@ export default defineComponent ({
       const storageRef = ref(storage, "Resume.pdf");
       this.linkToResume = await getDownloadURL(storageRef);
     },
+    typingAnimation() {
+      const name = document.getElementById("typingAnimation");
+      if(name === null) return;
+      const nameText = name.textContent;
+      if(nameText === null) return;
+      name.textContent = "";
+      let i = 0;
+      const typingName = () => {
+        if (i < nameText.length) {
+          name.innerHTML += nameText.charAt(i);
+          i++;
+          setTimeout(typingName, 150);
+        }
+      };
+      typingName();
+    }
   },
   data() {
     return {
@@ -97,14 +120,23 @@ export default defineComponent ({
   font-weight: 300;
   margin: 0;
   font-family: Monaco,Consolas,Lucida Console,monospace;
-  color: #9A0680;
+  color: var(--secondary-color);
   padding-left: 15px;
   padding-right: 30px;
 }
 .output > a {
-  text-decoration: inherit;
-  color: var(--main-color);
+  text-decoration: none;
+  color: deepskyblue;
   cursor: pointer;
+}
+.output > a:hover {
+  text-decoration: underline;
+}
+.npm{
+  color: darkgoldenrod;
+}
+.packageName{
+  color: yellowgreen;
 }
 .blink {
   display: inline-block;
