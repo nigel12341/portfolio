@@ -95,14 +95,14 @@ export default {
 <style scoped>
 .project {
   margin-bottom: 30px;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
 }
-.projectsContainer {
-  padding-top: 30px;
+.projectsContainer{
+  margin: 0 auto;
   width: 40%;
 }
 .secondButton {
@@ -136,5 +136,21 @@ h2 {
   font-family: Monaco,Consolas,Lucida Console,monospace;
   color: var(--main-color);
   width: 100%;
+}
+@media only screen and (max-width: 933px) {
+  .project {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  .projectsContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 452px) {
+  .projectImage{
+    display: none;
+  }
 }
 </style>

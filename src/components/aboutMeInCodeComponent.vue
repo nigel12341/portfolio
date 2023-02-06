@@ -133,6 +133,7 @@ export default defineComponent({
   color: var(--secondary-color);
   padding-left: 15px;
   padding-right: 30px;
+  word-break: break-word;
 }
 
 .output > a {
