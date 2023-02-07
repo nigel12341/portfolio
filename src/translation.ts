@@ -1,5 +1,5 @@
 import i18n from "@/i18n";
-
+/* eslint-disable */
 const Trans = {
     get supportedLocales() {
         if(process.env.VUE_APP_SUPPORTED_LOCALES) {
