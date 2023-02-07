@@ -43,10 +43,11 @@
       "title": "Project Enterprise web application",
         "description": "This is a project i did with a team for a grade at school.",
       "description2": "It is a web application for the municipality of Amsterdam.",
-        "description3": "It is made with 5 people including me."
+        "description3": "It is made with 5 people including me.",
+      "unavailable": "unavailable"
     }
   },
   "contact": {
-    "placeholder": "placeholder"
+    "title": "Contact me!"
   }
 }
