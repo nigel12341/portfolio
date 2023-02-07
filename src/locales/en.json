@@ -1,4 +1,8 @@
 {
+  "locale": {
+    "en": "English",
+    "nl": "Dutch"
+  },
   "introduction": {
     "name": "> Nigel Christiaans",
     "shortIntro": "I am a second year Software Engineering student at the Amsterdam University of Applied Sciences.",
@@ -22,12 +26,12 @@
     "linkToWebsite": "Link to website",
     "githubRepo": "Github Repository",
     "agileBot": {
-        "title": "Agile discord bot",
+        "title": "Agile Discord bot",
         "description": "A Discord bot that also has a web dashboard."
     },
     "agileBotWeb": {
-        "title": "Agile discord bot web dashboard",
-        "description": "A web dashboard for the Agile discord bot.",
+        "title": "Agile Discord bot web dashboard",
+        "description": "A web dashboard for the Agile Discord bot.",
     },
     "discordApiNPM": {
         "title": "Discord API NPM",
