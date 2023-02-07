@@ -1,0 +1,57 @@
+{
+  "locale": {
+    "en": "English",
+    "nl": "Dutch"
+  },
+  "introduction": {
+    "name": "> Nigel Christiaans",
+    "shortIntro": "I am a second year Software Engineering student at the Amsterdam University of Applied Sciences.",
+    "shortIntro2": "Check out my projects to see what I have been working on."
+  },
+  "aboutMeInCode": {
+    "skills": "> Nigel.skills",
+    "education": "> Nigel.education",
+    "resume": "> Nigel.resume",
+    "contactInfo": "> Nigel.contactInfo",
+    "interests": "> Nigel.interests",
+    "hire": "hire",
+    "nigelResumeNPM": "Nigel/resume",
+    "resumePdf": "Resume.pdf",
+    "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
+    "outputInterests": "[\"Airsoft\", \"Motorcycle riding\", \"Gaming\", \"Chilling\"]",
+    "outputEducation": "\"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied Sciences.\""
+  },
+  "projects": {
+    "title": "Projects",
+    "linkToWebsite": "Link to website",
+    "githubRepo": "Github Repository",
+    "agileBot": {
+        "title": "Agile Discord bot",
+        "description": "A Discord bot that also has a web dashboard."
+    },
+    "agileBotWeb": {
+        "title": "Agile Discord bot web dashboard",
+        "description": "A web dashboard for the Agile Discord bot.",
+    },
+    "discordApiNPM": {
+        "title": "Discord API NPM",
+        "description": "A NPM package that allows you to easily interact with the Discord API.",
+        "description2": "Published as NPM package.",
+      "npmPage": "NPM page"
+    },
+    "portfolioWebsite": {
+      "title": "Portfolio",
+      "description": "This website!"
+    },
+    "PEWA": {
+      "title": "Project Enterprise web application",
+        "description": "This is a project i did with a team for a grade at school.",
+      "description2": "It is a web application for the municipality of Amsterdam.",
+        "description3": "It is made with 5 people including me.",
+      "unavailable": "unavailable"
+    }
+  },
+  "contact": {
+    "title": "Contact me!"
+  }
+}
