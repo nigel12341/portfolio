@@ -13,7 +13,8 @@
 </template>
 
 <script lang="ts">
-
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import { defineComponent } from "vue";
 import IntroductionComponent from "@/components/introductionComponent.vue";
 import AboutMeInCodeComponent from "@/components/aboutMeInCodeComponent.vue";
@@ -25,7 +26,25 @@ import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 export default defineComponent({
   name: "HomeView",
   components: {
-    ContactComponent, SkillsComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent, LanguageSwitcher}
+    ContactComponent, SkillsComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent, LanguageSwitcher},
+  created() {
+    document.title = "Nigel Christiaans";
+    const firebaseConfig = {
+      apiKey: "AIzaSyA1NKwaKsQDzHWZ0Beio6blT8xoQy0BqmQ",
+      authDomain: "portfolio-website-2003.firebaseapp.com",
+      projectId: "portfolio-website-2003",
+      storageBucket: "portfolio-website-2003.appspot.com",
+      messagingSenderId: "732238214166",
+      appId: "1:732238214166:web:606c6978ff67fdee55f137",
+      measurementId: "G-HE3STT9C9K"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Initialize Analytics and get a reference to the service
+    getAnalytics(app);
+  },
 })
 </script>
 
