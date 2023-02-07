@@ -1,12 +1,12 @@
 <template>
   <div class="introContainer">
     <div class="nameContainer">
-      > Nigel Christiaans
+      {{ $t('introduction.name') }}
       <span class="blink"> </span>
     </div>
-    <p class="shortIntro"> I am a second year Software Engineering student at the Amsterdam University of Applied Sciences.
+    <p class="shortIntro">{{ $t('introduction.shortIntro') }}
     </p>
-    <p class="shortIntro">Check out my projects to see what I have been working on.</p>
+    <p class="shortIntro">{{ $t('introduction.shortIntro2') }}</p>
   </div>
 </template>
 

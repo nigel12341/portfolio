@@ -1,0 +1,29 @@
+{
+  "introduction":
+  {
+    "name": "> Nigel Christiaans",
+    "shortIntro": "Ik ben een 2e jaars HBO-ICT Software Engineering student bij de Hogeschool Van Amsterdam.",
+    "shortIntro2": "Bekijk mijn portfolio en projecten hieronder."
+  },
+  "aboutMeInCode": {
+    "skills": "> Nigel.vaardigheden",
+    "education": "> Nigel.scholing",
+    "resume": "> Nigel.CV",
+    "contactInfo": "> Nigel.contactInfo",
+    "interests": "> Nigel.hobbies",
+    "hire": "aannemen",
+    "nigelResumeNPM": "Nigel/CV",
+    "resumePdf": "CV.pdf",
+    "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
+    "outputInterests": "[\"Airsoft\", \"Motor rijden\", \"Gamen\", \"Chillen\"]",
+    "outputEducation": "\"Een 2e jaars HBO-ICT (Software Engineering) student bij de Hogeschool Van Amsterdam.\""
+  },
+  "projects":
+  {
+
+  },
+  "contact":
+  {
+
+  }
+}
