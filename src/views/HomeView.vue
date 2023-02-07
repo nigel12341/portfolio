@@ -1,5 +1,6 @@
 <template>
   <div class="mainView">
+    <LanguageSwitcher/>
     <introduction-component/>
     <about-me-in-code-component/>
     <hr>
@@ -19,10 +20,12 @@ import AboutMeInCodeComponent from "@/components/aboutMeInCodeComponent.vue";
 import ProjectsComponent from "@/components/projectsComponent.vue";
 import SkillsComponent from "@/components/skillsComponent.vue";
 import ContactComponent from "@/components/contactComponent.vue";
+import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 
 export default defineComponent({
   name: "HomeView",
-  components: {ContactComponent, SkillsComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent}
+  components: {
+    ContactComponent, SkillsComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent, LanguageSwitcher}
 })
 </script>
 

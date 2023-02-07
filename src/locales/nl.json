@@ -1,0 +1,59 @@
+{
+  "locale": {
+    "en": "Engels",
+    "nl": "Nederlands"
+  },
+  "introduction":
+  {
+    "name": "> Nigel Christiaans",
+    "shortIntro": "Ik ben een 2e jaars HBO-ICT Software Engineering student bij de Hogeschool Van Amsterdam.",
+    "shortIntro2": "Bekijk mijn portfolio en projecten hieronder."
+  },
+  "aboutMeInCode": {
+    "skills": "> Nigel.vaardigheden",
+    "education": "> Nigel.scholing",
+    "resume": "> Nigel.CV",
+    "contactInfo": "> Nigel.contactInfo",
+    "interests": "> Nigel.hobbies",
+    "hire": "aannemen",
+    "nigelResumeNPM": "Nigel/CV",
+    "resumePdf": "CV.pdf",
+    "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
+    "outputInterests": "[\"Airsoft\", \"Motor rijden\", \"Gamen\", \"Chillen\"]",
+    "outputEducation": "\"Een 2e jaars HBO-ICT (Software Engineering) student bij de Hogeschool Van Amsterdam.\""
+  },
+  "projects": {
+    "title": "Projecten",
+    "linkToWebsite": "Link naar website",
+    "githubRepo": "Github Repository",
+    "agileBot": {
+      "title": "Agile Discord bot",
+      "description": "Een discord bot met een website dashboard."
+    },
+    "agileBotWeb": {
+      "title": "Agile Discord bot web dashboard",
+      "description": "Een website dashboard voor de Agile bot"
+    },
+    "discordApiNPM": {
+      "title": "Discord API NPM",
+      "description": "Een NPM package die ik heb gemaakt zodat je makkelijker met de discord API kan werken.",
+      "description2": "Gepubliceerd op NPM",
+      "npmPage": "NPM pagina"
+    },
+    "portfolioWebsite": {
+      "title": "Portfolio",
+      "description": "Deze website!"
+    },
+    "PEWA": {
+      "title": "Project Enterprise web application",
+      "description": "Dit is een project die ik voor school hebt gemaakt.",
+      "description2": "Het is een web applicatie voor de Gemeente Amsterdam in opdracht van de HvA.",
+      "description3": "Het project is gemaakt met een groep van 5 studenten.",
+      "unavailable": "Niet beschikbaar"
+    }
+  },
+  "contact":
+  {
+    "title": "Neem contact op!"
+  }
+}

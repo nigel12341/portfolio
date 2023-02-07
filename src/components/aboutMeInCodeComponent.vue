@@ -4,26 +4,26 @@
     <div class="dots yellow"></div>
     <div class="dots green"></div>
     <div class="terminal">
-      <p class="command" id="overrideStyle">> Nigel.skills</p>
-      <p class="output"> ["Java", "Vue", "Javascript", "HTML", "CSS", "Typescript", "MySQL", "NoSQL", "Cypress"]</p>
-      <p class="command">> Nigel.resume</p>
-      <p class="output"><a :href="linkToResume" target="_blank">"Resume.pdf"</a></p>
-      <p class="command">> Nigel.interests</p>
-      <p class="output">["Airsoft", "Motorcycle riding", "Gaming", "Chilling"]</p>
-      <p class="command">> Nigel.education</p>
-      <p class="output">"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied
-        Sciences."</p>
-      <p class="command">> Nigel.contactInfo</p>
+      <p class="command" id="overrideStyle">{{$t('aboutMeInCode.skills')}}</p>
+      <p class="output">{{$t('aboutMeInCode.outputSkills')}}</p>
+      <p class="command">{{ $t('aboutMeInCode.resume') }}</p>
+      <p class="output"><a :href="linkToResume" target="_blank">"{{$t('aboutMeInCode.resumePdf')}}"</a></p>
+      <p class="command">{{ $t('aboutMeInCode.interests') }}</p>
+      <p class="output">{{$t('aboutMeInCode.outputInterests')}}</p>
+      <p class="command">{{$t('aboutMeInCode.education')}}</p>
+      <p class="output">{{$t('aboutMeInCode.outputEducation')}}</p>
+      <p class="command">{{$t('aboutMeInCode.contactInfo')}}</p>
       <p class="output">[<a href="mailto:nigel@nigelchristiaans.nl">"nigel@nigelchristiaans.nl"</a>, <a
           href="https://www.linkedin.com/in/n-christiaans/">"LinkedIn"</a>, <a href="https://github.com/nigel12341">"Github"</a>]
       </p>
       <p class="command" id="typingAnimation">
         >
         <span class="npm">npm</span>
-        hire
-        <span class="packageName">@Nigel/resume</span>
+        {{ $t('aboutMeInCode.hire') }}
+        <span class="packageName">@{{ $t('aboutMeInCode.nigelResumeNPM') }}</span>
         <span class="blink"> </span>
       </p>
+
     </div>
   </div>
 </template>
@@ -45,7 +45,7 @@ const firebaseConfig = {
 export default defineComponent({
   name: "aboutMeInCodeComponent",
   mounted() {
-    // this.typingAnimation();
+    this.typingAnimation();
     initializeApp(firebaseConfig);
     this.getLinkToResume();
   },
@@ -69,6 +69,7 @@ export default defineComponent({
           setTimeout(typingName, 150);
         }
       };
+
       typingName();
     }
   },
