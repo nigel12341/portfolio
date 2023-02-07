@@ -23,6 +23,7 @@
         <span class="packageName">@{{ $t('aboutMeInCode.nigelResumeNPM') }}</span>
         <span class="blink"> </span>
       </p>
+
     </div>
   </div>
 </template>
@@ -68,6 +69,7 @@ export default defineComponent({
           setTimeout(typingName, 150);
         }
       };
+
       typingName();
     }
   },

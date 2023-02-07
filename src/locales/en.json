@@ -20,6 +20,7 @@
   "projects": {
     "title": "Projects",
     "linkToWebsite": "Link to website",
+    "githubRepo": "Github Repository",
     "agileBot": {
         "title": "Agile discord bot",
         "description": "A Discord bot that also has a web dashboard."
@@ -27,13 +28,22 @@
     "agileBotWeb": {
         "title": "Agile discord bot web dashboard",
         "description": "A web dashboard for the Agile discord bot.",
-      "linkToWebsite": "Link to website"
     },
     "discordApiNPM": {
         "title": "Discord API NPM",
         "description": "A NPM package that allows you to easily interact with the Discord API.",
         "description2": "Published as NPM package.",
       "npmPage": "NPM page"
+    },
+    "portfolioWebsite": {
+      "title": "Portfolio",
+      "description": "This website!"
+    },
+    "PEWA": {
+      "title": "Project Enterprise web application",
+        "description": "This is a project i did with a team for a grade at school.",
+      "description2": "It is a web application for the municipality of Amsterdam.",
+        "description3": "It is made with 5 people including me."
     }
   },
   "contact": {
