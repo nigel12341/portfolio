@@ -33,6 +33,8 @@ import {getDownloadURL, getStorage, ref} from "firebase/storage";
 import {defineComponent} from "vue";
 import {initializeApp} from "firebase/app";
 
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyA1NKwaKsQDzHWZ0Beio6blT8xoQy0BqmQ",
   authDomain: "portfolio-website-2003.firebaseapp.com",
@@ -45,7 +47,6 @@ const firebaseConfig = {
 export default defineComponent({
   name: "aboutMeInCodeComponent",
   mounted() {
-    this.typingAnimation();
     initializeApp(firebaseConfig);
     this.getLinkToResume();
   },
@@ -55,23 +56,7 @@ export default defineComponent({
       const storageRef = ref(storage, "Resume.pdf");
       this.linkToResume = await getDownloadURL(storageRef);
     },
-    typingAnimation() {
-      const name = document.getElementById("typingAnimation");
-      if (name === null) return;
-      const nameText = name.textContent;
-      if (nameText === null) return;
-      name.textContent = "";
-      let i = 0;
-      const typingName = () => {
-        if (i < nameText.length) {
-          name.innerHTML += nameText.charAt(i);
-          i++;
-          setTimeout(typingName, 150);
-        }
-      };
-
-      typingName();
-    }
+    
   },
   data() {
     return {
