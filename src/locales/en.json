@@ -31,7 +31,7 @@
     },
     "agileBotWeb": {
         "title": "Agile Discord bot web dashboard",
-        "description": "A web dashboard for the Agile Discord bot.",
+        "description": "A web dashboard for the Agile Discord bot."
     },
     "discordApiNPM": {
         "title": "Discord API NPM",
