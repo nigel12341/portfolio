@@ -35,6 +35,9 @@ export default {
   margin-right: 50px;
   float: right;
   translate: 0 -20px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  border-color: var(--main-color);
 }
 .container-lang {
   width: 100%;

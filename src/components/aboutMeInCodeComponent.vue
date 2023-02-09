@@ -56,7 +56,7 @@ export default defineComponent({
       const storageRef = ref(storage, "Resume.pdf");
       this.linkToResume = await getDownloadURL(storageRef);
     },
-    
+
   },
   data() {
     return {
@@ -90,15 +90,15 @@ export default defineComponent({
 }
 
 .red {
-  background-color: #FF0000;
+  background-color: #FF605C;
 }
 
 .yellow {
-  background-color: #FFD700;
+  background-color: #FFBD44;
 }
 
 .green {
-  background-color: #00FF00;
+  background-color: #00CA4E;
 }
 
 .command {
@@ -106,9 +106,9 @@ export default defineComponent({
   font-weight: 300;
   margin: 0;
   font-family: Monaco, Consolas, Lucida Console, monospace;
-  color: black;
   padding-top: 1.8rem;
   padding-left: 15px;
+  color: var(--text-color);
 }
 
 .output {
