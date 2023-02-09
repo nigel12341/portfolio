@@ -1,7 +1,7 @@
 <template>
   <div class="introContainer">
-    <div class="nameContainer">
-      {{ $t('introduction.name') }}
+    <div v-once class="nameContainer">
+      > Nigel Christiaans
       <span class="blink"> </span>
     </div>
     <p class="shortIntro">{{ $t('introduction.shortIntro') }}

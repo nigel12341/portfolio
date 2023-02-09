@@ -8,7 +8,7 @@
     <skills-component/>
     <hr>
     <contact-component/>
-    <p id="copyright">Copyright (c) Nigel Christiaans 2023</p>
+    <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023</p>
   </div>
 </template>
 

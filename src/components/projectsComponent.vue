@@ -64,7 +64,7 @@
       </a>
     </div>
     <div class="project" id="portfolioWebsite">
-      <img class="projectImage rounded-circle" src="@/assets/selfie.png" alt="Selfie">
+      <img class="projectImage rounded-circle" src="@/assets/selfie.webp" alt="Selfie">
       <h3>{{$t("projects.portfolioWebsite.title")}}</h3>
       <p>{{$t("projects.portfolioWebsite.description")}}</p>
       <p>
