@@ -1,6 +1,12 @@
 :root {
-    --main-color: #7286D3;
-    --secondary-color: #8EA7E9;
-    --background-color: #FFF2F2;
+    /*--main-color: #7286D3;*/
+    /*--secondary-color: #8EA7E9;*/
+    /*--background-color: #FFF2F2;*/
+    /*--text-color: #E5E0FF;*/
+
+    --main-color: #52619e;
+    --secondary-color: #b7c1dd;
+    --background-color: #4b4b4b;
+    --background-entire-color: #363636;
     --text-color: #E5E0FF;
 }

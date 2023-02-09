@@ -8,7 +8,7 @@
     <skills-component/>
     <hr>
     <contact-component/>
-    <p>Copyright (c) Nigel Christiaans 2023</p>
+    <p id="copyright">Copyright (c) Nigel Christiaans 2023</p>
   </div>
 </template>
 
@@ -56,10 +56,8 @@ export default defineComponent({
   justify-content: center;
   width: 100%;
   height: 100%;
-  margin-top: 50px;
-}
-template {
-  background-color: var(--background-color);
+  padding-top: 50px;
+  background-color: var(--background-entire-color);
 }
 p{
   margin-top: 10rem;
@@ -69,5 +67,8 @@ hr{
   border: 2px solid var(--main-color);
   padding: 0;
   margin: 0;
+}
+#copyright {
+  color: white;
 }
 </style>
