@@ -1,9 +1,11 @@
 :root {
+    /* For light mode switcher later */
     --main-color-light: #7286D3;
     --secondary-color-light: #8EA7E9;
     --background-color-light: #FFF2F2;
     --text-color-light: #E5E0FF;
 
+    /* Current dark mode colors */
     --main-color: #727daa;
     --secondary-color: #b7c1dd;
     --background-color: #4b4b4b;

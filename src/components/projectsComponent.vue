@@ -136,6 +136,7 @@ export default {
   margin-left: 10px;
   background-color: var(--secondary-color) !important;
   color: black;
+  border-color: var(--secondary-color);
 }
 .techBox {
   margin: 3px;
@@ -149,8 +150,9 @@ export default {
   height: 100%;
   float: right;
 }
-.githubButton{
+.githubButton {
   background-color: var(--main-color) !important;
+  border-color: var(--main-color);
 }
 #title {
   text-align: center;
