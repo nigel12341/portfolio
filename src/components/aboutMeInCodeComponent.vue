@@ -90,15 +90,15 @@ export default defineComponent({
 }
 
 .red {
-  background-color: #FF0000;
+  background-color: #FF605C;
 }
 
 .yellow {
-  background-color: #FFD700;
+  background-color: #FFBD44;
 }
 
 .green {
-  background-color: #00FF00;
+  background-color: #00CA4E;
 }
 
 .command {
@@ -108,7 +108,7 @@ export default defineComponent({
   font-family: Monaco, Consolas, Lucida Console, monospace;
   padding-top: 1.8rem;
   padding-left: 15px;
-  color: white;
+  color: var(--text-color);
 }
 
 .output {
