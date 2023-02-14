@@ -1,5 +1,7 @@
 <template>
   <div class="container-lang">
+    <iframe id="sponsorIframe" src="https://github.com/sponsors/nigel12341/button" title="Sponsor nigel12341"
+            height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
   <select class="form-select" id="langSwitcher" @change="switchLanguage">
     <option
         v-for="sLocale in supportedLocales"
@@ -15,6 +17,7 @@
 <script>
 import Tr from "@/translation.ts"
 import {useI18n} from "vue-i18n";
+
 export default {
   name: "LanguageSwitcher.vue",
   setup() {
@@ -30,6 +33,12 @@ export default {
 </script>
 
 <style scoped>
+#sponsorIframe {
+  float: left;
+  margin-left: 1%;
+  translate: 0 -20px;
+}
+
 #langSwitcher {
   width: 15%;
   margin-right: 50px;
