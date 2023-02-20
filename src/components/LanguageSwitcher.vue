@@ -52,9 +52,15 @@ export default {
   width: 100%;
   height: 100%;
 }
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 1040px) {
   #langSwitcher {
-    width: 80%;
+    width: 30%;
   }
 }
+@media only screen and (max-width: 450px) {
+  #langSwitcher {
+    width: 50%;
+  }
+}
+
 </style>
