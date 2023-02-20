@@ -32,6 +32,7 @@
 import {getDownloadURL, getStorage, ref} from "firebase/storage";
 import {defineComponent} from "vue";
 import {initializeApp} from "firebase/app";
+import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
 
 
 
@@ -47,7 +48,14 @@ const firebaseConfig = {
 export default defineComponent({
   name: "aboutMeInCodeComponent",
   mounted() {
-    initializeApp(firebaseConfig);
+    const app = initializeApp(firebaseConfig);
+    initializeAppCheck(app, {
+      provider: new ReCaptchaV3Provider(process.env.VUE_APP_APP_CHECK_PUBLIC_KEY ? process.env.VUE_APP_APP_CHECK_PUBLIC_KEY : 'undefined'),
+
+      // Optional argument. If true, the SDK automatically refreshes App Check
+      // tokens as needed.
+      isTokenAutoRefreshEnabled: true
+    });
     this.getLinkToResume();
   },
   methods: {
