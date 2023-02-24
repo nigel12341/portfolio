@@ -132,7 +132,7 @@ export default defineComponent({
 
 .output > a {
   text-decoration: none;
-  color: deepskyblue;
+  color: #48d1ff;
   cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ export default defineComponent({
 }
 
 .npm {
-  color: darkgoldenrod;
+  color: #ffb600;
 }
 
 .packageName {

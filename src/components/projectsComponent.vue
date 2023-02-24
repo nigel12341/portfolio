@@ -151,8 +151,8 @@ export default {
   float: right;
 }
 .githubButton {
-  background-color: var(--main-color) !important;
-  border-color: var(--main-color);
+  background-color: var(--button-color) !important;
+  border-color: var(--button-color);
 }
 #title {
   text-align: center;
