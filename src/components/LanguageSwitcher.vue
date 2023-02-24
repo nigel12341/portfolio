@@ -17,6 +17,8 @@
 <script>
 import Tr from "@/translation.ts"
 import {useI18n} from "vue-i18n";
+import {useMeta} from "vue-meta";
+
 
 export default {
   name: "LanguageSwitcher.vue",
@@ -27,7 +29,11 @@ export default {
       const newLocale = event.target.value // <--- 2
       await Tr.switchLanguage(newLocale) // <--- 3
     }
+    useMeta({
+      htmlAttrs: { lang: locale.value }
+    })
     return { t, locale, supportedLocales, switchLanguage } // <--- 4
+
   }
 }
 </script>

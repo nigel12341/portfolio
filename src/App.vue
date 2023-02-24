@@ -1,12 +1,22 @@
 <template>
+  <metainfo>
+    <template v-slot:title="{ content }">{{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}</template>
+  </metainfo>
   <HomeView/>
 </template>
 <script>
 import HomeView from '@/views/HomeView.vue'
+import {useMeta} from "vue-meta";
 export default {
   name: 'App',
   components: {
     HomeView
+  },
+  setup() {
+    useMeta({
+      title: 'Nigel Christiaans',
+      htmlAttrs: { lang: 'nl' }
+    })
   }
 }
 </script>
