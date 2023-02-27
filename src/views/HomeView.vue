@@ -1,6 +1,6 @@
 <template>
   <div class="mainView">
-    <LanguageSwitcher/>
+    <LanguageSwitcher id="langSwitch"/>
     <introduction-component/>
     <about-me-in-code-component/>
     <hr>
@@ -71,4 +71,11 @@ hr{
 #copyright {
   color: white;
 }
+@media screen and (min-width: 2006px) {
+  #langSwitch {
+    position: sticky;
+    top: 2rem;
+  }
+}
+
 </style>
