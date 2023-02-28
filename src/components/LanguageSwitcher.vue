@@ -42,14 +42,14 @@ export default {
 #sponsorIframe {
   float: left;
   margin-left: 1%;
-  translate: 0 -20px;
+  transform: translate(0, -20px);
 }
 
 #langSwitcher {
   width: 15%;
   margin-right: 50px;
   float: right;
-  translate: 0 -20px;
+  transform: translate(0, -20px);
   background-color: var(--main-color);
   color: var(--text-color);
   border-color: var(--main-color);
