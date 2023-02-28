@@ -7,7 +7,7 @@
       <p class="command" id="overrideStyle">{{$t('aboutMeInCode.skills')}}</p>
       <p class="output">{{$t('aboutMeInCode.outputSkills')}}</p>
       <p class="command">{{ $t('aboutMeInCode.resume') }}</p>
-      <p class="output"><a :href="linkToResume" target="_blank">"{{$t('aboutMeInCode.resumePdf')}}"</a></p>
+      <p class="output"><a :href="linkToResume" target="_blank" aria-label="opens in new window">"{{$t('aboutMeInCode.resumePdf')}}"</a></p>
       <p class="command">{{ $t('aboutMeInCode.interests') }}</p>
       <p class="output">{{$t('aboutMeInCode.outputInterests')}}</p>
       <p class="command">{{$t('aboutMeInCode.education')}}</p>
