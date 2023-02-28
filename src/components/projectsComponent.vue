@@ -5,7 +5,7 @@
       <img class="projectImage rounded-circle" src="@/assets/logo-color.svg" alt="Agile bot">
       <h3>{{$t('projects.agileBot.title')}}</h3>
       <p>{{$t('projects.agileBot.description')}}</p>
-      <p>
+      <p v-once>
         <span class="techBox">Firebase</span>
         <span class="techBox">JS</span>
         <span class="techBox">NodeJS</span>
@@ -21,7 +21,7 @@
       <img class="projectImage rounded-circle" src="@/assets/A-logo-color.svg" alt="Agile bot">
       <h3>{{$t('projects.agileBotWeb.title')}}</h3>
       <p>{{$t('projects.agileBotWeb.description')}}</p>
-      <p>
+      <p v-once>
         <span class="techBox">VueJS</span>
         <span class="techBox">Firebase</span>
         <span class="techBox">JS</span>
@@ -46,7 +46,7 @@
       <img class="projectImage" src="@/assets/npm-banner.png" alt="NPM banner">
       <h3>{{$t('projects.discordApiNPM.title')}}</h3>
       <p>{{$t('projects.discordApiNPM.description')}}<br>{{$t('projects.discordApiNPM.description2')}}</p>
-      <p>
+      <p v-once>
         <span class="techBox">JS</span>
         <span class="techBox">NodeJS</span>
       </p>
@@ -67,7 +67,7 @@
       <img class="projectImage rounded-circle" src="@/assets/selfie.webp" alt="Selfie">
       <h3>{{$t("projects.portfolioWebsite.title")}}</h3>
       <p>{{$t("projects.portfolioWebsite.description")}}</p>
-      <p>
+      <p v-once>
         <span class="techBox">Vue</span>
         <span class="techBox">NodeJS</span>
         <span class="techBox">HTML</span>
@@ -87,7 +87,7 @@
       <img class="projectImage" src="@/assets/gemAmsLogo.svg" alt="logo AMS">
       <h3>{{$t("projects.PEWA.title")}}</h3>
       <p>{{$t("projects.PEWA.description")}}<br>{{$t("projects.PEWA.description2")}}<br>{{$t("projects.PEWA.description3")}}</p>
-      <p>
+      <p v-once>
         <span class="techBox">Vue</span>
         <span class="techBox">NodeJS</span>
         <span class="techBox">HTML</span>

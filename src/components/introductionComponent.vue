@@ -1,9 +1,9 @@
 <template>
   <div class="introContainer">
-    <div v-once class="nameContainer">
+    <h1 v-once class="nameContainer">
       > Nigel Christiaans
       <span class="blink"> </span>
-    </div>
+    </h1>
     <p class="shortIntro">{{ $t('introduction.shortIntro') }}
     </p>
     <p class="shortIntro">{{ $t('introduction.shortIntro2') }}</p>
