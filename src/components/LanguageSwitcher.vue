@@ -1,8 +1,8 @@
 <template>
   <div class="container-lang">
     <iframe id="sponsorIframe" src="https://github.com/sponsors/nigel12341/button" title="Sponsor nigel12341"
-            height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
-  <select class="form-select" id="langSwitcher" @change="switchLanguage">
+            height="32" width="114"></iframe>
+  <select class="form-select" aria-label="language switch form" id="langSwitcher" @change="switchLanguage">
     <option
         v-for="sLocale in supportedLocales"
         :key="`locale-${sLocale}`"
@@ -42,14 +42,14 @@ export default {
 #sponsorIframe {
   float: left;
   margin-left: 1%;
-  translate: 0 -20px;
+  transform: translate(0, -20px);
 }
 
 #langSwitcher {
   width: 15%;
   margin-right: 50px;
   float: right;
-  translate: 0 -20px;
+  transform: translate(0, -20px);
   background-color: var(--main-color);
   color: var(--text-color);
   border-color: var(--main-color);

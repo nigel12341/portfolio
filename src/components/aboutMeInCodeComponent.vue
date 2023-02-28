@@ -7,7 +7,7 @@
       <p class="command" id="overrideStyle">{{$t('aboutMeInCode.skills')}}</p>
       <p class="output">{{$t('aboutMeInCode.outputSkills')}}</p>
       <p class="command">{{ $t('aboutMeInCode.resume') }}</p>
-      <p class="output"><a :href="linkToResume" target="_blank">"{{$t('aboutMeInCode.resumePdf')}}"</a></p>
+      <p class="output"><a :href="linkToResume" target="_blank" aria-label="opens in new window">"{{$t('aboutMeInCode.resumePdf')}}"</a></p>
       <p class="command">{{ $t('aboutMeInCode.interests') }}</p>
       <p class="output">{{$t('aboutMeInCode.outputInterests')}}</p>
       <p class="command">{{$t('aboutMeInCode.education')}}</p>
@@ -89,7 +89,7 @@ export default defineComponent({
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  translate: 2px 7px;
+  transform: translate(2px, 7px);
   margin-left: 5px;
 }
 
@@ -154,7 +154,7 @@ export default defineComponent({
   height: 20px;
   background-color: var(--secondary-color);
   animation: blink 1.1s steps(1, end) infinite;
-  translate: 0 4px;
+  transform: translate(0, 4px);
 }
 .container {
   margin-bottom: 5rem;

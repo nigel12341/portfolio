@@ -74,6 +74,7 @@ hr{
 @media screen and (min-width: 2006px) {
   #langSwitch {
     position: sticky;
+    position: -webkit-sticky;
     top: 2rem;
   }
 }

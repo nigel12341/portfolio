@@ -1,9 +1,9 @@
 <template>
   <div class="introContainer">
-    <div v-once class="nameContainer">
+    <h1 v-once class="nameContainer">
       > Nigel Christiaans
       <span class="blink"> </span>
-    </div>
+    </h1>
     <p class="shortIntro">{{ $t('introduction.shortIntro') }}
     </p>
     <p class="shortIntro">{{ $t('introduction.shortIntro2') }}</p>
@@ -35,7 +35,7 @@ export default {
   height: 45px;
   background-color: var(--secondary-color);
   animation: blink 1.1s steps(1, end) infinite;
-  translate: 0 15px;
+  transform: translate(0, 15px);
 }
 .nameContainer{
   font-size: 3em;
@@ -77,7 +77,7 @@ font-size: 1.2em;
   .blink {
     width: 20px;
     height: 35px;
-    translate: 0 2px;
+    transform: translate(0, 2px);
   }
 }
 @media only screen and (max-width: 699px) {
@@ -87,7 +87,7 @@ font-size: 1.2em;
   .blink {
     width: 15px;
     height: 25px;
-    translate: 0 3px;
+    transform: translate(0, 3px);
   }
 }
 </style>
