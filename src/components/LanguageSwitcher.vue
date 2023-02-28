@@ -1,7 +1,7 @@
 <template>
   <div class="container-lang">
     <iframe id="sponsorIframe" src="https://github.com/sponsors/nigel12341/button" title="Sponsor nigel12341"
-            height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+            height="32" width="114"></iframe>
   <select class="form-select" aria-label="language switch form" id="langSwitcher" @change="switchLanguage">
     <option
         v-for="sLocale in supportedLocales"
