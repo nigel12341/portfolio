@@ -5,7 +5,6 @@
     <about-me-in-code-component/>
     <hr>
     <projects-component/>
-    <skills-component/>
     <hr>
     <contact-component/>
     <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023</p>
@@ -19,14 +18,13 @@ import { defineComponent } from "vue";
 import IntroductionComponent from "@/components/introductionComponent.vue";
 import AboutMeInCodeComponent from "@/components/aboutMeInCodeComponent.vue";
 import ProjectsComponent from "@/components/projectsComponent.vue";
-import SkillsComponent from "@/components/skillsComponent.vue";
 import ContactComponent from "@/components/contactComponent.vue";
 import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
-    ContactComponent, SkillsComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent, LanguageSwitcher},
+    ContactComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent, LanguageSwitcher},
   created() {
     document.title = "Nigel Christiaans";
     const firebaseConfig = {

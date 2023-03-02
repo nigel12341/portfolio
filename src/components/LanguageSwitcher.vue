@@ -69,4 +69,10 @@ export default {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  #langSwitcher {
+    width: 47%;
+  }
+}
+
 </style>

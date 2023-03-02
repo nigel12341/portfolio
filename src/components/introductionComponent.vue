@@ -1,5 +1,5 @@
 <template>
-  <div class="introContainer">
+  <header class="introContainer">
     <h1 v-once class="nameContainer">
       > Nigel Christiaans
       <span class="blink"> </span>
@@ -7,7 +7,7 @@
     <p class="shortIntro">{{ $t('introduction.shortIntro') }}
     </p>
     <p class="shortIntro">{{ $t('introduction.shortIntro2') }}</p>
-  </div>
+  </header>
 </template>
 
 <script>
