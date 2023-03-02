@@ -1,4 +1,6 @@
 <template>
+  <link rel="canonical" href="https://portfolio.nigelchristiaans.nl">
+  <meta name="theme-color" content="#363636">
   <metainfo>
     <template v-slot:title="{ content }">{{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}</template>
   </metainfo>
