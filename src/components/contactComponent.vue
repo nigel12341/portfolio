@@ -1,5 +1,5 @@
 <template>
-  <div class="contactContainer">
+  <footer class="contactContainer">
     <h2>{{$t('contact.title')}}</h2>
       <a href="mailto:nigel@nigelchristiaans.nl" class="btn btn-primary buttons">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at"
@@ -23,7 +23,7 @@
         </svg>
         LinkedIn
       </a>
-  </div>
+  </footer>
 </template>
 
 <script>
