@@ -15,7 +15,7 @@ export default {
   setup() {
     useMeta({
       title: 'Nigel Christiaans',
-      description: 'Portfolio website of Nigel Christiaans',
+      description: 'Portfolio website of Nigel Christiaans, here you can see all of my projects and information about myself!',
       htmlAttrs: { lang: 'nl' }
     })
   }
