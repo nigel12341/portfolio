@@ -3,7 +3,7 @@
     <div class="dots red"></div>
     <div class="dots yellow"></div>
     <div class="dots green"></div>
-    <div class="terminal">
+    <main class="terminal">
       <p class="command" id="overrideStyle">{{$t('aboutMeInCode.skills')}}</p>
       <p class="output">{{$t('aboutMeInCode.outputSkills')}}</p>
       <p class="command">{{ $t('aboutMeInCode.resume') }}</p>
@@ -24,7 +24,7 @@
         <span class="blink"> </span>
       </p>
 
-    </div>
+    </main>
   </div>
 </template>
 
