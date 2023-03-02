@@ -45,4 +45,16 @@ export default {
 h2 {
   text-align: center;
 }
+
+@media only screen and (max-width: 400px) {
+  .buttons {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .buttons {
+    margin-left: 0px;
+  }
+}
 </style>
