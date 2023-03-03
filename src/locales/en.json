@@ -17,7 +17,7 @@
     "nigelResumeNPM": "Nigel/resume",
     "resumePdf": "Resume.pdf",
     "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
-    "outputInterests": "[\"Airsoft\", \"Motorcycle riding\", \"Gaming\", \"Chilling\"]",
+    "outputInterests": "[\"Airsoft\", \"Motorcycle riding\", \"Gaming\"]",
     "outputEducation": "\"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied Sciences.\""
   },
   "projects": {

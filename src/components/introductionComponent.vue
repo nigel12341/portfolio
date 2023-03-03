@@ -1,7 +1,7 @@
 <template>
   <header class="introContainer">
-    <h1 v-once class="nameContainer">
-      > Nigel Christiaans
+    <h1 class="nameContainer">
+      {{ name }}
       <span class="blink"> </span>
     </h1>
     <p class="shortIntro">{{ $t('introduction.shortIntro') }}
@@ -15,6 +15,23 @@
 
 export default {
   name: "introductionComponent",
+  data() {
+    return {
+      name: ""
+    }
+  },
+  mounted() {
+    this.typeEffect();
+  },
+  methods: {
+    async typeEffect() {
+      const fullString = "Nigel Christiaans"
+      for (const letter of fullString) {
+        this.name += letter;
+        await new Promise(resolve => setTimeout(resolve, 250));
+      }
+    }
+  }
 }
 </script>
 
@@ -35,7 +52,7 @@ export default {
   height: 45px;
   background-color: var(--secondary-color);
   animation: blink 1.1s steps(1, end) infinite;
-  transform: translate(0, 15px);
+  transform: translate(0, 8px);
 }
 .nameContainer{
   font-size: 3em;
