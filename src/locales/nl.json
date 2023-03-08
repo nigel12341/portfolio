@@ -33,6 +33,11 @@
       "title": "Agile Discord bot web dashboard",
       "description": "Een website dashboard voor de Agile bot"
     },
+    "weatherApp": {
+      "title": "Weer app",
+      "description": "Een weer app die de WeatherAPI en Tomorrow.io API gebruikt gemaakt met Vite en Spring Boot",
+      "webpage": "Link naar website"
+    },
     "discordApiNPM": {
       "title": "Discord API NPM",
       "description": "Een NPM package die ik heb gemaakt zodat je makkelijker met de discord API kan werken.",

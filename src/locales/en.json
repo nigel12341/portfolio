@@ -42,6 +42,11 @@
       "title": "Portfolio",
       "description": "This website!"
     },
+    "weatherApp": {
+      "title": "Weather app",
+      "description": "A weather app that uses the WeatherAPI and Tomorrow.io API made with Vite and Spring Boot",
+      "webpage": "Link to webpage"
+    },
     "PEWA": {
       "title": "Project Enterprise web application",
         "description": "This is a project i did with a team for a grade at school.",
