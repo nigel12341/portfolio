@@ -18,7 +18,7 @@
         <span class="techBox">Maven</span>
         <span class="techBox">Google cloud</span>
       </p>
-      <a href="https://github.com/nigel12341/portfolio" aria-label="opens in new window" target="_blank"
+      <a href="https://github.com/nigel12341/Weather-app" aria-label="opens in new window" target="_blank"
          class="btn btn-primary githubButton">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
              viewBox="0 0 16 16">
