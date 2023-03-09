@@ -44,7 +44,7 @@
     },
     "weatherApp": {
       "title": "Weather app",
-      "description": "A weather app that uses the WeatherAPI and Tomorrow.io API made with Vite and Spring Boot",
+      "description": "A weather app that uses the WeatherAPI and Tomorrow.io API made with Vite and Spring Boot. I made this app to learn to interact with APIs and to learn how to use Vite. I also wanted to use a Spring Boot backend instead of doing the requests directly in vue.",
       "webpage": "Link to webpage"
     },
     "PEWA": {
