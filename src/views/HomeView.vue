@@ -1,5 +1,6 @@
 <template>
   <div class="mainView">
+    <img id="backToTop" src="/UpArrow.svg" alt="^" v-if="atTheTop" @click="scrollToTop"/>
     <LanguageSwitcher id="langSwitch"/>
     <introduction-component/>
     <about-me-in-code-component/>
@@ -42,7 +43,27 @@ export default defineComponent({
 
     // Initialize Analytics and get a reference to the service
     getAnalytics(app);
+    this.checkScrollPosition();
   },
+  methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
+    },
+    checkScrollPosition() {
+      window.addEventListener('scroll', () => {
+        const halfPageHeight = document.body.scrollHeight / 4 ;
+        this.atTheTop = window.scrollY > halfPageHeight;
+      })
+    }
+  },
+  data() {
+    return{
+      atTheTop: false,
+    }
+  }
 })
 </script>
 
@@ -75,6 +96,18 @@ hr{
     position: -webkit-sticky;
     top: 2rem;
   }
+}
+#backToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 72px;
+  height: 72px;
+  background-color: var(--background-entire-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 </style>
