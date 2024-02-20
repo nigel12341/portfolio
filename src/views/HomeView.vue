@@ -1,6 +1,6 @@
 <template>
   <div class="mainView">
-    <img id="backToTop" src="/UpArrow.svg" alt="^" v-if="atTheTop" @click="scrollToTop"/>
+    <img id="backToTop" src="/UpArrow.svg" alt="^" v-if="atTheTop && notMobile" @click="scrollToTop"/>
     <LanguageSwitcher id="langSwitch"/>
     <introduction-component/>
     <about-me-in-code-component/>
@@ -44,6 +44,9 @@ export default defineComponent({
     // Initialize Analytics and get a reference to the service
     getAnalytics(app);
     this.checkScrollPosition();
+    if(window.innerWidth < 940) {
+      this.notMobile = false;
+    }
   },
   methods: {
     scrollToTop() {
@@ -62,6 +65,7 @@ export default defineComponent({
   data() {
     return{
       atTheTop: false,
+      notMobile: true,
     }
   }
 })
