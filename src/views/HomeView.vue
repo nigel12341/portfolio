@@ -8,7 +8,7 @@
     <projects-component/>
     <hr>
     <contact-component/>
-    <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023</p>
+    <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023-2024</p>
   </div>
 </template>
 
