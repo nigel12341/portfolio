@@ -93,7 +93,6 @@ hr{
 @media screen and (min-width: 2006px) {
   #langSwitch {
     position: sticky;
-    position: -webkit-sticky;
     top: 2rem;
   }
 }
@@ -106,8 +105,9 @@ hr{
   background-color: var(--background-entire-color);
   background-repeat: no-repeat;
   background-position: center;
-  transition: all 0.3s ease-in-out;
   cursor: pointer;
+  border: 4px solid var(--main-color);
+  border-radius:50%;
 }
 
 </style>
