@@ -30,7 +30,7 @@
     },
     "agileBotWeb": {
         "title": "Agile Discord bot web dashboard",
-        "description": "A web dashboard for the Agile Discord bot."
+        "description": "A web dashboard for the Agile Discord bot, i use to experiment with social login, OAUTH2 and the discord api in combination with the bot."
     },
     "discordApiNPM": {
         "title": "Discord API NPM",

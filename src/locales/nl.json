@@ -31,7 +31,7 @@
     },
     "agileBotWeb": {
       "title": "Agile Discord bot web dashboard",
-      "description": "Een website dashboard voor de Agile bot"
+      "description": "Een website dashboard voor de Agile bot, om te experimenteren met social login, OAUTH2 en het gebruik van de discord API I.C.M een bot."
     },
     "weatherApp": {
       "title": "Weer app",
