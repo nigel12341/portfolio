@@ -13,7 +13,7 @@
       <p class="command">{{$t('aboutMeInCode.education')}}</p>
       <p class="output">{{$t('aboutMeInCode.outputEducation')}}</p>
       <p class="command">{{$t('aboutMeInCode.contactInfo')}}</p>
-      <p class="output">[<a href="mailto:nigel@nigelchristiaans.nl">"nigel@nigelchristiaans.nl"</a>, <a
+      <p class="output">[<a href="mailto:email@nigelchristiaans.nl">"email@nigelchristiaans.nl"</a>, <a
           href="https://www.linkedin.com/in/n-christiaans/">"LinkedIn"</a>, <a href="https://github.com/nigel12341">"Github"</a>]
       </p>
       <p class="command" id="typingAnimation">
