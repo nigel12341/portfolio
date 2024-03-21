@@ -80,6 +80,7 @@ export default defineComponent({
 <style scoped>
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
 }
 .flex-child {
   flex: 1;
@@ -87,6 +88,11 @@ export default defineComponent({
 }
 .flex-child:first-child {
   margin-right: 20px;
+}
+@media screen and (max-width: 1047px) {
+  .flex-child {
+    flex-basis: 100%; /* This will make the items take up the full width of the container, causing them to stack vertically */
+  }
 }
 .mainView {
   display: flex;

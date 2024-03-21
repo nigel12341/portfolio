@@ -5,7 +5,7 @@
       <img class="projectImage rounded-circle" src="@/assets/landmacht-logo.webp" alt="Defensie icon">
       <h3>{{ $t("workExperience.defensie.title") }}</h3>
       <h5>{{ $t("workExperience.defensie.company")}}</h5>
-      <h5>{{ $t("workExperience.defensie.timeAtCompany")}}</h5>
+      <h6>{{ $t("workExperience.defensie.timeAtCompany")}}</h6>
       <p>{{ $t("workExperience.defensie.description") }}</p>
       <!-- not needed yet -->
 <!--      <p>-->
@@ -89,6 +89,7 @@ hr{
   margin: 0 auto;
   width: 40%;
   color: var(--secondary-color);
+
 }
 .projectImage {
   width: 150px;
