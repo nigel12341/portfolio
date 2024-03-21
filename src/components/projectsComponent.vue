@@ -110,7 +110,7 @@
       </a>
     </section>
     <section class="project" id="DiscordApiWrapper">
-      <img class="projectImage" src="@/assets/npm-banner.png" alt="NPM banner">
+      <img class="projectImage" src="@/assets/npm-banner.webp" alt="NPM banner">
       <h3>{{ $t('projects.discordApiNPM.title') }}</h3>
       <p>{{ $t('projects.discordApiNPM.description') }}<br>{{ $t('projects.discordApiNPM.description2') }}</p>
       <p v-once>
