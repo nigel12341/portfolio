@@ -5,7 +5,11 @@
     <introduction-component/>
     <about-me-in-code-component/>
     <hr>
-    <projects-component/>
+    <div class="flex-container">
+      <projects-component class="flex-child projects1"/>
+      <work-experience-component class="flex-child projects2"/>
+    </div>
+
     <hr>
     <contact-component/>
     <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023-2024</p>
@@ -21,10 +25,12 @@ import AboutMeInCodeComponent from "@/components/aboutMeInCodeComponent.vue";
 import ProjectsComponent from "@/components/projectsComponent.vue";
 import ContactComponent from "@/components/contactComponent.vue";
 import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
+import WorkExperienceComponent from "@/components/workExperienceComponent.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
+    WorkExperienceComponent,
     ContactComponent, ProjectsComponent, AboutMeInCodeComponent, IntroductionComponent, LanguageSwitcher},
   created() {
     document.title = "Nigel Christiaans";
@@ -72,6 +78,16 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.flex-container {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+  margin: 20px;
+}
+.flex-child:first-child {
+  margin-right: 20px;
+}
 .mainView {
   display: flex;
   flex-direction: column;

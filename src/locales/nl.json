@@ -59,5 +59,17 @@
   "contact":
   {
     "title": "Neem contact op!"
+  },
+  "workExperience": {
+    "title": "Werkervaring",
+    "picnic": {
+      "title": "Runner Trainer",
+      "company": "Picnic",
+      "description": "Als Runner Trainer ben ik onderdeel van het sollicitatietraject voor nieuwe kandidaten die intresse tonen om te komen werken als Runner bij Picnic. Ik ben verantwoordelijk voor de selectie en training van deze kandidaten door onderanderen het hebben van sollicitatie gesprekken en het geven van presentaties en natuurlijk trainingen geven in de praktijk. Daarnaast heb ik ook rondleidingen gedaan voor de brandweer en mensen van Groupil.",
+      "timeAtCompany": "October 2023 - heden",
+      "title2": "Runner",
+      "description2": "Ik ben als runner verantwoordelijk voor het bezorgen van de boodschappen bij klanten. Dit moet op een redelijk strak schema, maar je neemt wel genoeg tijd om een goede indruk achter te laten bij de klanten. Verder zorg je er zelf voor dat je auto optijd is ingeladen en vertrekt.",
+      "timeAtCompany2": "September 2022 - Heden"
+    }
   }
 }
