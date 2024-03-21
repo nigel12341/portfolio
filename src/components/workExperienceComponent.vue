@@ -1,32 +1,61 @@
 <template>
   <div class="workExperienceContainer">
   <h2 id="title">{{ $t('workExperience.title') }} -</h2>
-
+    <section class="workExperience" id="defensie">
+      <img class="projectImage rounded-circle" src="@/assets/landmacht-logo.png" alt="Defensie icon">
+      <h3>{{ $t("workExperience.defensie.title") }}</h3>
+      <h6>{{ $t("workExperience.defensie.company")}}</h6>
+      <h6>{{ $t("workExperience.defensie.timeAtCompany")}}</h6>
+      <p>{{ $t("workExperience.defensie.description") }}</p>
+      <!-- not needed yet -->
+<!--      <p>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.collaborate") }}</span>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.1-on-1 interviews") }}</span>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.presenting") }}</span>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.speaking in front of groups") }}</span>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.leadership") }}</span>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.training staff") }}</span>-->
+<!--        <span class="skillsBox">{{ $t("workExperience.skills.english") }}</span>-->
+<!--      </p>-->
+    </section>
+    <section class="workExperience" id="RYSST">
+      <img class="projectImage rounded-circle" src="@/assets/rysst-logo.jpeg" alt="Picnic icon">
+      <h3>{{ $t("workExperience.RYSST.title") }}</h3>
+      <h6>{{ $t("workExperience.RYSST.timeAtCompany")}}</h6>
+      <p>{{ $t("workExperience.RYSST.description") }}</p>
+      <p>
+        <span class="skillsBox">{{ $t("workExperience.skills.collaborate") }}</span>
+        <span class="skillsBox">{{ $t("workExperience.skills.speaking in front of groups") }}</span>
+        <span class="skillsBox">{{ $t("workExperience.skills.leadership") }}</span>
+        <span class="skillsBox">{{ $t("workExperience.skills.english") }}</span>
+        <span class="skillsBox">Skrum</span>
+      </p>
+    </section>
   <section class="workExperience" id="picnic">
     <img class="projectImage rounded-circle" src="@/assets/Picnic_logo.png" alt="Picnic icon">
     <h3>{{ $t("workExperience.picnic.title") }}</h3>
     <h6>{{ $t("workExperience.picnic.timeAtCompany")}}</h6>
     <p>{{ $t("workExperience.picnic.description") }}</p>
-    <p v-once>
-      <span class="techBox">Samenwerken</span>
-      <span class="techBox">1 op 1 gesprekken</span>
-      <span class="techBox">Presenteren</span>
-      <span class="techBox">Spreken voor groepen</span>
-      <span class="techBox">Leiding geven</span>
-      <span class="techBox">Opleiden van personeel</span>
-      <span class="techBox">Engels</span>
+    <p>
+      <span class="skillsBox">{{ $t("workExperience.skills.collaborate") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.1-on-1 interviews") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.presenting") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.speaking in front of groups") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.leadership") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.training staff") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.english") }}</span>
     </p>
     <hr>
       <h3>{{ $t("workExperience.picnic.title2") }}</h3>
     <h6>{{ $t("workExperience.picnic.timeAtCompany2")}}</h6>
       <p>{{ $t("workExperience.picnic.description2") }}</p>
 
-      <p v-once>
-        <span class="techBox">Klanttevredenheid</span>
-        <span class="techBox">Engels</span>
-        <span class="techBox">Presteren onder tijdsdruk</span>
-        <span class="techBox">Oplossen van problemen</span>
-      </p>
+    <p>
+      <span class="skillsBox">{{ $t("workExperience.skills.customer satisfaction") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.english") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.performing under pressure") }}</span>
+      <span class="skillsBox">{{ $t("workExperience.skills.problem solving") }}</span>
+    </p>
     </section>
   </div>
 </template>
@@ -42,7 +71,7 @@ hr{
   padding: 0;
   margin: 0;
 }
-.techBox {
+.skillsBox {
   margin: 3px;
   padding: 5px;
   display: inline-block;

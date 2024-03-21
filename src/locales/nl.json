@@ -62,6 +62,18 @@
   },
   "workExperience": {
     "title": "Werkervaring",
+    "skills": {
+      "collaborate": "Samenwerken",
+      "1-on-1 interviews": "1-op-1 gesprekken",
+      "presenting": "Presenteren",
+      "speaking in front of groups": "Spreken voor groepen",
+      "leadership": "Leiding geven",
+      "training staff": "Opleiden van personeel",
+      "english": "Engels",
+      "customer satisfaction": "Klanttevredenheid",
+      "performing under pressure": "Presteren onder tijdsdruk",
+      "problem solving": "Oplossen van problemen"
+    },
     "picnic": {
       "title": "Runner Trainer",
       "company": "Picnic",
@@ -70,6 +82,18 @@
       "title2": "Runner",
       "description2": "Ik ben als runner verantwoordelijk voor het bezorgen van de boodschappen bij klanten. Dit moet op een redelijk strak schema, maar je neemt wel genoeg tijd om een goede indruk achter te laten bij de klanten. Verder zorg je er zelf voor dat je auto optijd is ingeladen en vertrekt.",
       "timeAtCompany2": "September 2022 - Heden"
+    },
+    "defensie": {
+      "title": "Reservist Soldaat Verbindingsdienst",
+        "company": "Landmacht - C2OstCo",
+        "description": "Ik ga in Juni 2024 beginnen aan mijn ARB (Algemene Reservisten Basisopleiding) en daarna ga ik verder met de opleiding tot Soldaat Verbindingsdienst. Als soldaat reservist C2OstCo van de Landmacht ondersteun je bij het installeren, bedienen en onderhouden van alle Communicatie- en Informatiesystemen die bij de Landmacht in gebruik zijn. Denk hierbij aan computernetwerken en radio- satellietcommunicatie. Dit doe je parttime en is voornamelijk in de avond en in het weekend.",
+        "timeAtCompany": "Start: Juni 2024"
+    },
+    "RYSST": {
+      "title": "Junior Software Developer",
+        "company": "RYSST",
+        "description": "Als Junior Software Developer bij RYSST ben ik verantwoordelijk voor het ontwikkelen van software voor klanten. Dit kan variëren van het maken van websites tot het maken van software voor bedrijven. Ik werk hier met een klein team van developers en designers.",
+        "timeAtCompany": "Start: April 2024"
     }
   }
 }
