@@ -80,6 +80,18 @@
       "title2": "Runner",
       "description2": "As a runner, I am responsible for delivering groceries to customers. This has to be done on a fairly tight schedule, but you do take enough time to leave a good impression with the customers. Furthermore, you ensure that your car is loaded and departs on time.",
       "timeAtCompany2": "September 2022 - Present"
+    },
+    "defensie": {
+      "title": "Reserves Soldier (IT)",
+      "company": "Army - C2OstCo",
+      "description": "I will start my ARB (General Reserves Basic Training) in June 2024 and then I will continue with the training to Soldier (IT). As a Reserves soldier C2OstCo, I support the installation, operation and maintenance of all Communication and Information Systems in use in the Army. Think of computer networks and radio satellite communication. You do this part-time and is mainly in the evening and on the weekend.",
+      "timeAtCompany": "Start: June 2024"
+    },
+    "RYSST": {
+      "title": "Junior Software Developer",
+      "company": "RYSST",
+      "description": "As a Junior Software Developer at RYSST, I am responsible for developing software for clients. This can vary from creating websites to creating software for companies. I work here with a small team of developers and designers.",
+      "timeAtCompany": "March 2024 - present"
     }
   }
 }

@@ -2,10 +2,10 @@
   <div class="workExperienceContainer">
   <h2 id="title">{{ $t('workExperience.title') }} -</h2>
     <section class="workExperience" id="defensie">
-      <img class="projectImage rounded-circle" src="@/assets/landmacht-logo.png" alt="Defensie icon">
+      <img class="projectImage rounded-circle" src="@/assets/landmacht-logo.webp" alt="Defensie icon">
       <h3>{{ $t("workExperience.defensie.title") }}</h3>
-      <h6>{{ $t("workExperience.defensie.company")}}</h6>
-      <h6>{{ $t("workExperience.defensie.timeAtCompany")}}</h6>
+      <h5>{{ $t("workExperience.defensie.company")}}</h5>
+      <h5>{{ $t("workExperience.defensie.timeAtCompany")}}</h5>
       <p>{{ $t("workExperience.defensie.description") }}</p>
       <!-- not needed yet -->
 <!--      <p>-->
@@ -19,7 +19,7 @@
 <!--      </p>-->
     </section>
     <section class="workExperience" id="RYSST">
-      <img class="projectImage rounded-circle" src="@/assets/rysst-logo.jpeg" alt="Picnic icon">
+      <img class="projectImage rounded-circle" src="@/assets/rysst-logo.webp" alt="Picnic icon">
       <h3>{{ $t("workExperience.RYSST.title") }}</h3>
       <h6>{{ $t("workExperience.RYSST.timeAtCompany")}}</h6>
       <p>{{ $t("workExperience.RYSST.description") }}</p>
@@ -32,7 +32,7 @@
       </p>
     </section>
   <section class="workExperience" id="picnic">
-    <img class="projectImage rounded-circle" src="@/assets/Picnic_logo.png" alt="Picnic icon">
+    <img class="projectImage rounded-circle" src="@/assets/Picnic_logo.webp" alt="Picnic icon">
     <h3>{{ $t("workExperience.picnic.title") }}</h3>
     <h6>{{ $t("workExperience.picnic.timeAtCompany")}}</h6>
     <p>{{ $t("workExperience.picnic.description") }}</p>
