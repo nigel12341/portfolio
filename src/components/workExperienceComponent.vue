@@ -7,16 +7,12 @@
       <h5>{{ $t("workExperience.defensie.company")}}</h5>
       <h6>{{ $t("workExperience.defensie.timeAtCompany")}}</h6>
       <p>{{ $t("workExperience.defensie.description") }}</p>
-      <!-- not needed yet -->
-<!--      <p>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.collaborate") }}</span>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.1-on-1 interviews") }}</span>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.presenting") }}</span>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.speaking in front of groups") }}</span>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.leadership") }}</span>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.training staff") }}</span>-->
-<!--        <span class="skillsBox">{{ $t("workExperience.skills.english") }}</span>-->
-<!--      </p>-->
+      <p>
+        <span class="skillsBox">{{ $t("workExperience.skills.collaborate") }}</span>
+        <span class="skillsBox">{{ $t("workExperience.skills.stressResistant") }}</span>
+        <span class="skillsBox">{{ $t("workExperience.skills.integrity") }}</span>
+        <span class="skillsBox">{{ $t("workExperience.skills.disciplined") }}</span>
+      </p>
     </section>
     <section class="workExperience" id="RYSST">
       <img class="projectImage rounded-circle" src="@/assets/rysst-logo.webp" alt="Picnic icon">
@@ -28,7 +24,7 @@
         <span class="skillsBox">{{ $t("workExperience.skills.speaking in front of groups") }}</span>
         <span class="skillsBox">{{ $t("workExperience.skills.leadership") }}</span>
         <span class="skillsBox">{{ $t("workExperience.skills.english") }}</span>
-        <span class="skillsBox">Skrum</span>
+        <span class="skillsBox">Scrum</span>
       </p>
     </section>
   <section class="workExperience" id="picnic">

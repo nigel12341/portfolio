@@ -5,7 +5,7 @@
   },
   "introduction":
   {
-    "shortIntro": "Ik ben een eerste jaars HBO-Verpleegkunde student aan de Hogeschool Van Amsterdam.",
+    "shortIntro": "Ik ben een eerste jaars HBO-Verpleegkunde student, Jr. Software Engineer en Reservist bij de landmacht.",
     "shortIntro2": "Bekijk mijn portfolio en werkervaring hieronder."
   },
   "aboutMeInCode": {
@@ -17,12 +17,12 @@
     "hire": "aannemen",
     "nigelResumeNPM": "Nigel/CV",
     "resumePdf": "CV.pdf",
-    "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
-    "outputInterests": "[\"Airsoft\", \"Motor rijden\", \"Gamen\"]",
-    "outputEducation": "\"Een eerste jaars HBO-Verpleegkunde student aan de Hogeschool Van Amsterdam.\""
+    "outputSkills": "Java, Vue, Javascript, HTML, CSS, Typescript, MySQL, NoSQL, Cypress",
+    "outputInterests": "Airsoft, Motor rijden, Gamen",
+    "outputEducation": "Een eerste jaars HBO-Verpleegkunde student aan de Hogeschool Van Amsterdam."
   },
   "projects": {
-    "title": "Projecten",
+    "title": "Software Projecten",
     "linkToWebsite": "Link naar website",
     "githubRepo": "Github Repository",
     "agileBot": {
@@ -72,7 +72,10 @@
       "english": "Engels",
       "customer satisfaction": "Klanttevredenheid",
       "performing under pressure": "Presteren onder tijdsdruk",
-      "problem solving": "Oplossen van problemen"
+      "problem solving": "Oplossen van problemen",
+      "stressResistant": "Stressbestendig",
+      "integrity": "Integer",
+      "disciplined": "Discipline"
     },
     "picnic": {
       "title": "Runner Trainer",
@@ -90,9 +93,9 @@
         "timeAtCompany": "April 2024 - Heden"
     },
     "RYSST": {
-      "title": "Junior Software Developer",
+      "title": "Junior Software Engineer",
         "company": "RYSST",
-        "description": "Als Junior Software Developer bij RYSST ben ik verantwoordelijk voor het ontwikkelen van software voor klanten. Dit kan variëren van het maken van websites tot het maken van software voor bedrijven. Ik werk hier met een klein team van developers en designers.",
+        "description": "Als Junior Software Engineer bij RYSST ben ik verantwoordelijk voor het ontwikkelen van software voor klanten.Ik werk hier met een klein team van developers met de SCRUM methode.",
         "timeAtCompany": "Maart 2024 - Heden"
     }
   }
