@@ -5,7 +5,7 @@
   },
   "introduction":
   {
-    "shortIntro": "Ik ben een 2e jaars HBO-ICT Software Engineering student bij de Hogeschool Van Amsterdam.",
+    "shortIntro": "Ik ben een eerste jaars HBO-Verpleegkunde student aan de Hogeschool Van Amsterdam.",
     "shortIntro2": "Bekijk mijn portfolio en werkervaring hieronder."
   },
   "aboutMeInCode": {
@@ -19,7 +19,7 @@
     "resumePdf": "CV.pdf",
     "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
     "outputInterests": "[\"Airsoft\", \"Motor rijden\", \"Gamen\"]",
-    "outputEducation": "\"Een 2e jaars HBO-ICT (Software Engineering) student aan de Hogeschool Van Amsterdam.\""
+    "outputEducation": "\"Een eerste jaars HBO-Verpleegkunde student aan de Hogeschool Van Amsterdam.\""
   },
   "projects": {
     "title": "Projecten",
@@ -86,8 +86,8 @@
     "defensie": {
       "title": "Reservist Soldaat Verbindingsdienst",
         "company": "Landmacht - C2OstCo",
-        "description": "Ik ga in april 2024 beginnen aan mijn ARB (Algemene Reservisten Basisopleiding) en daarna ga ik verder met de opleiding tot Soldaat Verbindingsdienst. Als soldaat reservist C2OstCo van de Landmacht ondersteun je bij het installeren, bedienen en onderhouden van alle Communicatie- en Informatiesystemen die bij de Landmacht in gebruik zijn. Denk hierbij aan computernetwerken en radio- satellietcommunicatie. Dit doe je parttime en is voornamelijk in de avond en in het weekend.",
-        "timeAtCompany": "Start: april 2024"
+        "description": "Als soldaat reservist C2OstCo van de Landmacht ondersteun je bij het installeren, bedienen en onderhouden van alle Communicatie- en Informatiesystemen die bij de Landmacht in gebruik zijn. Denk hierbij aan computernetwerken en radio- satellietcommunicatie. Dit doe je parttime en is voornamelijk in de avond en in het weekend.",
+        "timeAtCompany": "April 2024 - Heden"
     },
     "RYSST": {
       "title": "Junior Software Developer",

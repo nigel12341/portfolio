@@ -4,7 +4,7 @@
     "nl": "Dutch"
   },
   "introduction": {
-    "shortIntro": "I am a second year Software Engineering student at the Amsterdam University of Applied Sciences.",
+    "shortIntro": "I am a first year bachelor of science in nursing student at the Amsterdam University of Applied Sciences.",
     "shortIntro2": "Check out my projects and work experience below."
   },
   "aboutMeInCode": {
@@ -18,7 +18,7 @@
     "resumePdf": "Resume.pdf",
     "outputSkills": "[\"Java\", \"Vue\", \"Javascript\", \"HTML\", \"CSS\", \"Typescript\", \"MySQL\", \"NoSQL\", \"Cypress\"]",
     "outputInterests": "[\"Airsoft\", \"Motorcycle riding\", \"Gaming\"]",
-    "outputEducation": "\"Second year HBO-ICT (Software Engineering) at the Amsterdam University of Applied Sciences.\""
+    "outputEducation": "\"First year bachelor of science in nursing at the Amsterdam University of Applied Sciences.\""
   },
   "projects": {
     "title": "Projects",
@@ -76,7 +76,7 @@
       "title": "Runner Trainer",
       "company": "Picnic",
       "description": "As a Runner Trainer, I am part of the application process for new candidates who show interest in working as a Runner at Picnic. I am responsible for the selection and training of these candidates by having job interviews, giving presentations and of course providing practical training. In addition, I have also given tours for the fire department and people from Groupil.",
-      "timeAtCompany": "October 2023 - present",
+      "timeAtCompany": "October 2023 - Present",
       "title2": "Runner",
       "description2": "As a runner, I am responsible for delivering groceries to customers. This has to be done on a fairly tight schedule, but you do take enough time to leave a good impression with the customers. Furthermore, you ensure that your car is loaded and departs on time.",
       "timeAtCompany2": "September 2022 - Present"
@@ -84,14 +84,14 @@
     "defensie": {
       "title": "Reserves Soldier (IT)",
       "company": "Army - C2OstCo",
-      "description": "I will start my ARB (General Reserves Basic Training) in April 2024 and then I will continue with the training to Soldier (IT). As a Reserves soldier C2OstCo, I support the installation, operation and maintenance of all Communication and Information Systems in use in the Army. Think of computer networks and radio satellite communication. You do this part-time and is mainly in the evening and on the weekend.",
-      "timeAtCompany": "Start: April 2024"
+      "description": "As a Reserves soldier C2OstCo, I support the installation, operation and maintenance of all Communication and Information Systems in use in the Army. Think of computer networks and radio satellite communication. You do this part-time and is mainly in the evening and on the weekend.",
+      "timeAtCompany": "April 2024 - Present"
     },
     "RYSST": {
       "title": "Junior Software Developer",
       "company": "RYSST",
       "description": "As a Junior Software Developer at RYSST, I am responsible for developing software for clients. This can vary from creating websites to creating software for companies. I work here with a small team of developers and designers.",
-      "timeAtCompany": "March 2024 - present"
+      "timeAtCompany": "March 2024 - Present"
     }
   }
 }
