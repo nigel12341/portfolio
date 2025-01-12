@@ -136,7 +136,6 @@
         {{ $t('projects.discordApiNPM.npmPage') }}
       </a>
     </section>
-
     <section class="project" id="ProjectEWA">
       <img class="projectImage" src="@/assets/gemAmsLogo.svg" alt="logo AMS">
       <h3>{{ $t("projects.PEWA.title") }}</h3>

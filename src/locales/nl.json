@@ -36,7 +36,7 @@
     "weatherApp": {
       "title": "Weer app",
       "description": "Een weer app die de WeatherAPI en Tomorrow.io API gebruikt gemaakt met Vite en Spring Boot. Ik wilde dit project doen om meer ervaring op te doen met het gebruiken van APIs en het gebruiken van Spring boot als een rest backend.",
-      "webpage": "Link naar website"
+      "webpage": "Deprecated"
     },
     "discordApiNPM": {
       "title": "Discord API NPM",
