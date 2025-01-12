@@ -12,7 +12,7 @@
 
     <hr>
     <contact-component/>
-    <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023-2024</p>
+    <p v-once id="copyright">Copyright (c) Nigel Christiaans 2023-2025</p>
   </div>
 </template>
 
